@@ -1,0 +1,30 @@
+
+.question {
+    border: 4px black groove;
+    width: 900px;
+    height: 250px;
+    margin: 20px;
+}
+
+.texte {
+    text-align: left;
+    margin-left: 10px;
+    width: 90%;
+    float: left;
+}
+
+a {
+    font-size: 30px;
+    border: 3px solid lime;
+    text-decoration: none;
+    color: limegreen;
+    padding: 5px;
+}
+
+a:hover {
+    background-color: lightgrey;
+}
+
+img {
+    float: right;
+}

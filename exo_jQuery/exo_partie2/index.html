@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div>
+        <p>
+            Exercices:Faire un exemple pour chaque type de sélection:
+            •Un exemple avec des sélecteurs hiérarchiques
+            •Un exemple avec des pseudo sélecteurs d’éléments sélectionnés
+            •Un exemple avec des Sélecteurs d’éléments particuliers
+            •Un exemple avec des Pseudo-sélecteurs spécifique aux formulaires
+            •Un exemple avec des Sélecteurs utilisés dans les tableaux
+        </p>
+    </div>
+
+    <div>
+        <p>selecteur hiérarchiques <br>
+            pseudo sélecteurs d’éléments sélectionnés <br>
+            Sélecteurs d’éléments particuliers
+            </p>
+        <div id="listes">
+            <ul id='ul1'>
+                <li>Element 1
+                    <ul id="ul2">
+                        <li>Enfant 1</li>
+                        <li>Enfant 2</li>
+                    </ul>
+                </li>
+                <li>Enfant 1</li>
+                <li>Enfant 2</li>
+                <li>Enfant 3</li>
+            </ul>
+        </div>
+
+        <div class="cache"> <p>Je suis caché</p> </div>
+    </div>
+
+    <div>
+        <p>Formulaire</p>
+        <form>
+            <label>Nom</label>
+            <input type="text" name="nom"><br>
+            <label>Mot de passe</label>
+            <input type="password" name="password"> <br>
+            <label>Sexe</label> <br>
+            Homme<input type="radio" name="sexe" value="Homme">  <br>
+            Femme<input type="radio" name="sexe" value="Femme"> <br>
+
+            commentaires <br>
+            <textarea name="com" cols="30" rows="5"></textarea> <br>
+
+            <input type="submit" value="Envoyer"> <br>
+            <input type="reset" value="Annuler">
+        </form>
+    </div>
+
+    <div>
+        <p>tableaux</p>
+        <div>
+            <form>
+                <table border="3">
+                    <tr>
+                        <td></td>
+                        <td>Clement</td>
+                        <td>Joel</td>
+                    </tr>
+                    <tr>
+                        <td>Lunettes</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td>Chauve</td>
+                        <td></td>
+                        <td>X</td>
+                    </tr>
+                    <tr>
+                        <td>Barbe</td>
+                        <td>X</td>
+                        <td>X</td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+    
+
+    <script type='text/javascript' src="../../jQuery-3.5.1.min.js"></script>
+    <script type='text/javascript' src="script.js"></script>
+    
+</body>
+</html>
